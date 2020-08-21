@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainValues: {fileID: 777231153}
+  shop: {fileID: 338701566}
 --- !u!65 &38856610
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -412,7 +413,6 @@ GameObject:
   - component: {fileID: 313004256}
   - component: {fileID: 313004259}
   - component: {fileID: 313004257}
-  - component: {fileID: 313004258}
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -459,7 +459,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 6
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -551,19 +551,6 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &313004258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 313004255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62d746a24d968924ea05278d03d2b5ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainValues: {fileID: 777231153}
 --- !u!222 &313004259
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -679,6 +666,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba12e2ad7aa303449dd6b0bbf5a4143, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  money: 0
+  mainValues: {fileID: 777231153}
+  price: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  mod:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  num: 0
 --- !u!1 &777231153
 GameObject:
   m_ObjectHideFlags: 0
